@@ -4,6 +4,9 @@ stampa un messaggio appropriato sull’esito del controllo.
 Non è necessario provvedere alla validazione delle email.
 NON USARE INCLUDES!
 
+DATI:
+-Mail dell'utente
+
 Esecuzione Logica:
 -Creazione lista autorizzata
 -Richiesta mail all'utente con prompt

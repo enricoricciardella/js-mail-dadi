@@ -1,9 +1,9 @@
 
 //Creo Lista autorizzata
-const mailAutorizzate = ["utente1@gmail.com", "utente2@gmail.com", "utente3@gmail.com"]
+const mailAutorizzate = ["utente1@gmail.com", "utente2@gmail.com", "utente3@gmail.com"];
 
 //Chiedere mail all'utente
-const UtenteEmail = prompt("Inserisci la tua email:")
+const UtenteEmail = prompt("Inserisci la tua email:");
 
 //Creo variabile per salvare l'accesso non autorizzato fin quando non è presente nella array
 let accessoOk = false;
@@ -15,7 +15,6 @@ for(let i = 0; i < mailAutorizzate.length; i++){
         break;
     }
 }
-
 if(accessoOk){
     console.log("Accesso OK");
 }
