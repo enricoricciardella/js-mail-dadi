@@ -12,11 +12,10 @@ let accessoOk = false;
 for(let i = 0; i < mailAutorizzate.length; i++){
     if (mailAutorizzate[i] === UtenteEmail) {
         accessoOk = true;
-        break;
     }
 }
 if(accessoOk){
-    console.log("Accesso OK");
+    console.log("Accesso CONSENTITO");
 }
 else {
     console.log("Accesso NEGATO");
